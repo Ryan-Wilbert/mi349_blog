@@ -47,9 +47,13 @@ p {
 
 nav {
     background-color: #ccd5ae;
-    padding: 5px;
-    margin: 20px;
+    padding: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     top: 0;
+    margin-left: -20px;
+    margin-right: -20px;
+    position: sticky;
 }
 
 .nav ul {
@@ -59,8 +63,49 @@ nav {
 }
 
 .nav a {
-    padding: 15px;
-    margin-left: 0;
-    display: block;
+    padding: 5px;
+    display: flex;
+    font-size: 20px;
+    color: #17190F;
+}
+
+#photo_of_me {
+    float: left;
+    margin: 25px;
+}
+
+#caption {
+    font-weight: bold;
+    margin: 0;
+}
+
+.contact {
+    display: -webkit-flex;
+}
+
+label {
+    padding: 10px;
+    margin: 10px;
+}
+
+label:nth-of-type(1) {
+    flex: 1;
+}
+
+label:nth-of-type(2) {
+    flex: 1;
+}
+
+label:nth-of-type(3) {
+    flex: 1;
+}
+
+label:nth-of-type(4) {
+    flex: 3;
+}
+
+form input[type="submit"]{
+    width: 300px;
+    height: 200px;
 }
 
